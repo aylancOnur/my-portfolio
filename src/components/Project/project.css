@@ -1,0 +1,114 @@
+.projects-hedaer {
+  margin-bottom: 3rem;
+}
+
+.row-reverse {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 10rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.project-image {
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.project-information {
+  width: 45%;
+  margin-bottom: 1.2rem;
+}
+
+.project-title {
+  text-transform: uppercase;
+  line-height: 2.8rem;
+  font-weight: 700;
+}
+
+.project-description {
+  margin-top: 2;
+  margin-bottom: 2rem;
+}
+
+.project-tools {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.project-tools-item {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  border-radius: 0.8rem;
+  margin-right: 1.5rem;
+}
+
+.project-links {
+  display: flex;
+}
+
+.project-icon {
+  display: block;
+  margin-right: 1.5rem;
+  width: 24px;
+  height: 24px;
+}
+
+.github {
+  text-align: center;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.github > a {
+  text-transform: uppercase;
+  padding: 1rem 8rem;
+  max-width: 32rem;
+  margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+  background-color: rgba(28,28,28,1);
+}
+
+
+@media screen and (max-width: 960px) {
+  .projects-hedaer {
+    text-align: center;
+  }
+  .project-image {
+    width: 80%;
+    border-radius: 1rem;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .project-information {
+    width: 80%;
+    margin-bottom: 1.2rem;
+    margin: 0 auto;
+  }
+
+  .github > a {
+    text-transform: uppercase;
+    padding: 1rem 1rem;
+    max-width: 32rem;
+    margin-bottom: 4.8rem;
+    margin-top: 4.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.87);
+    background-color: rgba(28,28,28,1);
+  }
+  
+}

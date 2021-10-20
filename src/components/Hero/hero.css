@@ -1,0 +1,69 @@
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12.8rem;
+  margin-bottom: 12.8rem;
+  background-image: url(../../images//bg-effects.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.hero-animation-container {
+  width: 50%;
+}
+
+.hero-animation {
+  width: 100%;
+  height: 100%;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.hero-about {
+  width: 50%;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.hero-heading {
+  font-size: 7.2rem;
+  line-height: 1;
+}
+
+.hero-content {
+  line-height: 1.625;
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    background-image: none;
+    margin-top: 2rem;
+  }
+  .hero-heading {
+    font-size: 4.2rem;
+    line-height: 1;
+  }
+
+  .hero-content {
+    line-height: 1.625;
+  }
+
+  .hero-about {
+    width: 80%;
+    margin: 8rem auto;
+  }
+
+  .hero-animation-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-animation {
+    width: 80%;
+    height: 80%;
+  }
+}
