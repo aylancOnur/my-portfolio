@@ -46,7 +46,7 @@ const projects = [
       "Full Stack (MERN) bir react uygulaması.(Proje devam ediyor yakında Github'da kodlara ulaşabilirsiniz.",
     tools: ["React", "NodeJs", "MONGO"],
     github: "#",
-    link: "https://cocky-archimedes-d98b35.netlify.app/",
+    link: "https://mmemories-app.netlify.app/",
     imgStart: "start",
   },
   {
