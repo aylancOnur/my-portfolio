@@ -59,6 +59,27 @@ const projects = [
     link: "",
     imgStart: "",
   },
+  ,
+  {
+    title: "Türkiye Teknoloji Takımı",
+    image: "./images/turkiye-teknoloji-takimi.jpg",
+    description:
+      "https://turkiyeteknolojitakimi.org/ yeniden tasarımı.",
+    tools: ["React","Swiper"],
+    github: "https://github.com/aylancOnur/turkiye-teknoloji-takimi",
+    link: "https://turkiye-teknoloji-takimi.netlify.app/",
+    imgStart: "start",
+  },
+  {
+    title: "Linkedin Redesign",
+    image: "./images/linkedin-redesign.jpg",
+    description:
+      "Linkedin profil sayfasının yeniden tasarımı.",
+    tools: ["React", "Swiper"],
+    github: "https://github.com/aylancOnur/linkedin-redesing",
+    link: "https://linkeding-redesign-case.netlify.app/",
+    imgStart: "",
+  },
 ];
 
 export default projects;
